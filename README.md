@@ -26,7 +26,7 @@ docker run -it -p 5050:5050 --rm --name "evaluacion-volatil" evaluacion
 ## Si deseas correr el script de manera dinamica debes de correr el siguiente codigo
 ```
 
- docker run -it --rm --name my-running-app -d -p 5050:5050 -v /rockstar/evaluacion/:/usr/src/app evaluacion
+docker run --name my-running-app -d -p 5050:5050 -v /rockstar/evaluacion/:/usr/src/app evaluacion
 
 ```
 Este codigo te permite mantener el servicio corriendo y ademas te permite mostrar los cambios de manera dinamica al poder editar la tabla CSV en los datos y darle refresh a la pagina web sin tener que construir la imagen en cada cambio
