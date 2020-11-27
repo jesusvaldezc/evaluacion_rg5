@@ -19,7 +19,7 @@ Este programa te permite convertir archivos CSV a JSON, solo necesitas agregar t
 -Correr Imagen en modo developer (Salir con [CTRL + C])
 
 ```
-docker run -it -p 5000:5000 --rm --name "evaluacion-volatil" evaluacion
+docker run -it -p 5050:5050 --rm --name "evaluacion-volatil" evaluacion
 
 ```
 
