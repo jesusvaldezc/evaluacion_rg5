@@ -11,7 +11,7 @@ app = Flask(__name__, static_url_path="")
 @app.route('/', methods=['GET'])
 def ejemplo_json():
 
-    csv_files = glob.glob('../data/*.csv')
+    csv_files = glob.glob('data/*.csv')
     lista = []
     if len(csv_files) == 0:
         response = {"No hay archivos csv por convertir a json" : 400}
